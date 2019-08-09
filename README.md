@@ -1,0 +1,1 @@
+`This is a light weight library to load any type of URL as byte array, using RX2 and okhttp.`
