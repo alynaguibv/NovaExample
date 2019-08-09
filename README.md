@@ -1,5 +1,9 @@
-```kotlin
+## Installation
 
+Because the library has not distributed yet to gradle repo, You can add the library as an Android module.
+
+## Usage
+```kotlin
 val dataCallback = object : DataCallback<ExampleResponse> {
             override fun onDataReceived(t: ExampleResponse) {
                 Log.e("TAG", t.toString())
@@ -11,5 +15,4 @@ val dataCallback = object : DataCallback<ExampleResponse> {
         }
 
         Nova.from("http://pastebin.com/raw/wgkJgazE", ExampleUtil.pastePinConverter, dataCallback)
-
 ```
